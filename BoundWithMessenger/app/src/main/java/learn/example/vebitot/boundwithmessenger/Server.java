@@ -33,7 +33,6 @@ public class Server extends Service {
         public void handleMessage(Message message){
             switch (message.what){
                 case INSTRUCTION_READ :
-                    Toast.makeText(getApplicationContext(),mServiceNote,Toast.LENGTH_SHORT).show();
                     try{
                         Message clientMessage = Message.obtain(null, INSTRUCTION_READ, 0, 0);
                         clientMessage.obj = mServiceNote;
@@ -44,7 +43,6 @@ public class Server extends Service {
                     }
                     break;
                 case INSTRUCTION_WRITE :
-                    Toast.makeText(getApplicationContext(),mServiceNote,Toast.LENGTH_SHORT).show();
                     mServiceNote = message.obj.toString();
                     try{
                         Message clientMessage = Message.obtain(null, INSTRUCTION_WRITE,0,0);
