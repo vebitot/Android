@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">firstandroidapp</string>
+    <string name="app_label">Magnifient Tigers</string>
+    <string name="action_settings">Settings</string>
+    <string name="previousButtonText">Previous Image</string>
+    <string name="nextButtonText">Next Image</string>
+    <string name="tigerBreed">Siberian Tiger</string>
+    <string name="breed_detials">This text box will hold the details of the tiger breed</string>
+    <string name="backButton">Back</string>
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MyTigerGallery</string>
+    <string name="app_label">Explore Tigers</string>
+    <string name="introduction">Tigers are the largest members of the cat family which means they are even larger than the Lion, which
+        claims to be the "King of the Animal Kingdom". Tigers are also especially powerful and strong, they can take down prey twice the size of their own!
+        Now how about that!</string>
+    <string name="action_settings">Settings</string>
+    <string name="introduction_label">Introduction </string>
+    <string name="explore">Explore</string>
+    <string name="tiger_content_description">general appearance</string>
+    <string name="title_activity_explore_activity">explore_activity</string>
+    <string name="siberian_desc">The largest and most well known is the Siberian Tiger (Panthera tigris altaica). This particular subspecies is only found in far east Siberia where they are protected.
+The biggest problem for them is their own genetics. They are closely related even with those that aren’t decedents of each other. This makes effective breeding even in captivity difficult and that can be a natural threat to this particular species of tiger.</string>
+    <string name="sumatran_desc">The Sumatran Tiger (Panthera tigris sumatrae) is the smallest of all tiger subspecies. There are about 500 or less of them left in the world.
+There are aggressive efforts in place to help protect them and to get their numbers back up. However, these efforts have really only been in place since 2007. The fact that they are only found in Sumatra also means that they continue to be victims of poachers and hunters because the laws can’t always be enforced there as strictly as they should be.</string>
+    <string name="bengal_desc">The Bengal tiger is found in India as well as Bangladesh and it is known to live both in the heated areas of desert and the grasslands where it is wet and cool.
+The Bengal Tiger is one of the largest species of tigers in the world. They are also the one that offers the highest number of them in the wild. Don’t get to excited though as they are still at a high risk of being endangered. There are only about 2,500 of them in the wild.</string>
+    <string name="china_desc">The South China Tiger (Panthera tigris amoyensis) is the one that most researchers are the most worried about. This particular species is believed to possibly be extinct over the next decade or even earlier. Hopefully the  efforts in place will help to prevent that from happing. Right now this animal is listed on the top ten of endangered animals which isn’t a good sign as to their future though</string>
+    <string name="malayan_desc">The Malayan Tiger is only found around the Malayan Peninsula which is where the name comes from. This is the newest species of tiger to be identified as it has only been recognized as a subspecies since 2004. They are the smallest in size of all the species of tigers. They are very often confused with the Sumatran Tiger due to their small size and their coloring. In fact, some people think that they are looking at photos of a young tiger instead of one that is a full grown adult with this species.</string>
+    <string name="title_activity_details_activity">details_activity</string>
+    <string name="description">Description</string>
+    <string name="explore_more">I\'d like to know more</string>
+    <string name="mal_tiger_url">http://www.tigers-world.com/malayan-tiger/</string>
+    <string name="mal_tiger_video_url">TIYUga5IO_8</string>
+    <string name="ben_tiger_url">http://www.tigers-world.com/bengal-tiger/</string>
+    <string name="ben_tiger_video_url">oer57tcW0D4</string>
+    <string name="chin_tiger_url">http://www.tigers-world.com/south-china-tiger/</string>
+    <string name="chin_tiger_video_url">D1Nh6NE2Z8I</string>
+    <string name="sib_tiger_url">http://www.tigers-world.com/siberian-tiger/</string>
+    <string name="sib_tiger_video_url">R7835zCPbCQ</string>
+    <string name="sum_tiger_url">http://www.tigers-world.com/sumatran-tiger/</string>
+    <string name="sum_tiger_video_url">OnnqS5YY6cY</string>
+    <string name="error_player">FAILED TO LOAD VIDEO!</string>
+    <string name="title_activity_new_entry">Add Entry</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="new_entry">Submit</string>
+</resources>
