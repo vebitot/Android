@@ -32,7 +32,17 @@ public class Client extends AppCompatActivity {
         messageTV = (TextView) findViewById(R.id.message);
     }
 
+    /**
+     * Service connection to interact with the main interface of service
+     */
     private ServiceConnection mServiceConnection = new ServiceConnection() {
+        /**
+         * Callback method from the Service Binder once the bind is completed
+         * In this case, client sends a replyTo object to the Service so that
+         * it can also send messages to the client using the replyTo object (Messenger)
+         * @param name
+         * @param service
+         */
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
             Log.i(TAG, "Service connected successfully.");
@@ -118,6 +128,10 @@ public class Client extends AppCompatActivity {
      * Client Messenger which will be used by the server to send reply messages to the client
      */
     class ClientMessageHandler extends Handler {
+        /**
+         * Method for handling the messages from the Service activity
+         * @param msg
+         */
         @Override
         public void handleMessage(Message msg) {
             Toast.makeText(getApplicationContext(), "Message reply received from server", Toast.LENGTH_SHORT).show();
