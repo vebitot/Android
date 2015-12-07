@@ -2,13 +2,9 @@ package learn.example.vebitot.boundwithmessenger;
 
 import android.app.Service;
 import android.content.Intent;
-import android.os.Handler;
-import android.os.IBinder;
-import android.os.Message;
-import android.os.Messenger;
-import android.os.RemoteException;
+import android.os.*;
 import android.widget.Toast;
-
+import android.os.Process;
 
 /**
  * Created by vebitot on 01-12-2015.
@@ -76,5 +72,13 @@ public class Server extends Service {
     public IBinder onBind(Intent intent){
         Toast.makeText(getApplicationContext(),"service bind initiated",Toast.LENGTH_SHORT).show();
         return mMessenger.getBinder();
+    }
+
+    /**
+     * Returns the process ID of the service
+     * @return int PID
+     */
+    public int getPID(){
+        return Process.myPid();
     }
 }
