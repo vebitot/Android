@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MCM</string>
+    <string name="corp_name">TTC</string>
+    <string name="branding">A product of TTC</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="filler">Service</string>
+
+</resources>

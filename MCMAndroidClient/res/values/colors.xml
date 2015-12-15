@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_blue">#0099ca</color>
+    <color name="main_font_color">#eeeeee</color>
+    <color name="faded_font_color">#44c5f6</color>
+    <color name="tinted_background">#2DDEBC</color>
+    <color name="orangy_squash">#FFA12A</color>
+</resources>
